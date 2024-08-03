@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.startBtn, .stopBtn , .resetBtn {
+    font-size: 60px;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
